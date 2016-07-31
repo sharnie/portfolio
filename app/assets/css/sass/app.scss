@@ -1,0 +1,86 @@
+@import "bootstrap-custom";
+@import "helper";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background-color: $primary-color;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*!
+ * Banner
+ */
+.banner {
+    color: #fff;
+    max-width: 280px;
+
+    .title {
+        letter-spacing: 0.8px;
+    }
+
+    .social {
+        a {
+            color: #fff;
+            display: inline-block;
+            padding: 0 5px;
+            font-size: 16px;
+        }
+    }
+}
+
+.sidebar {
+
+    .skills {
+        color: #fff;
+
+        .pill {
+            font-size: 12px;
+            padding: 5px 10px;
+            display: inline-block;
+            background-color: $primary-color;
+            border-radius: 30px;
+            margin-right: 3px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.projects {
+    .project {
+        position: relative;
+        border-radius: 2px;
+        overflow: hidden;
+
+        .meta {
+            color: #fff;
+            text-align: center;
+            padding: 40px 10px;
+            width: 100%;
+            display: block;
+
+            &:hover, &:focus {
+
+                &:after {
+                    content: "Wait... jk click me. :-)";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 1;
+                    padding: 55px 10px;
+                    background-color: $primary-color !important;
+                }
+            }
+        }
+    }
+
+    .links {
+        a {
+            text-decoration: none;
+            display: block;
+            color: #000;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.container {
+  max-width: 650px; }
+
+/*!
+ * Panel
+ */
+.panel {
+  border-radius: 1px; }
+
+/*!
+ * Page Header
+ */
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.35); }
